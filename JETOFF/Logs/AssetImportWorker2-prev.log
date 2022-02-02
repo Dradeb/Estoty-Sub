@@ -1,0 +1,561 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32683 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+F:\Unity\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/AKA-47/Desktop/Estoty/JETOFF
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60138
+Successfully changed project path to: C:/Users/AKA-47/Desktop/Estoty/JETOFF
+C:/Users/AKA-47/Desktop/Estoty/JETOFF
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 37.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path F:/Unity/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/AKA-47/Desktop/Estoty/JETOFF/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.14.9729
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'F:/Unity/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Unity/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001872 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Domain Reload Profiling:
+	ReloadAssembly (636ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (41ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Domain Reload Profiling:
+	ReloadAssembly (755ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (561ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1657 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (56.7 KB). Loaded Objects now: 2134.
+Memory consumption went from 151.9 MB to 151.9 MB.
+Total: 2.347400 ms (FindLiveObjects: 0.144800 ms CreateObjectMapping: 0.054900 ms MarkObjects: 2.072900 ms  DeleteObjects: 0.073500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6709.601040 seconds.
+  path: Assets/Models/Sahara/fbx/scaffold_stairs.fbx
+  artifactKey: Guid(6790348b95f87f54faf47239d31a7943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/scaffold_stairs.fbx using Guid(6790348b95f87f54faf47239d31a7943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ffecf13d1fcf82bda051600310d2e3') in 0.148691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652690 seconds.
+  path: Assets/Models/Sahara/fbx/shield_common.fbx
+  artifactKey: Guid(018053f5031913e4fb282c25360c7ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/shield_common.fbx using Guid(018053f5031913e4fb282c25360c7ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3520908c76421c291584ec137a3d1a') in 0.039077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.087485 seconds.
+  path: Assets/Models/Sahara/fbx/wallSingle_split.fbx
+  artifactKey: Guid(07921a119d60f304fa8a05b7bb345a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/wallSingle_split.fbx using Guid(07921a119d60f304fa8a05b7bb345a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda53880be34cf584342cd2af21dce81') in 0.041093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.511105 seconds.
+  path: Assets/Models/Sahara/fbx/wallSingle_door.fbx
+  artifactKey: Guid(b79abbe7b3952f042a55be0f261c6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/wallSingle_door.fbx using Guid(b79abbe7b3952f042a55be0f261c6d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0ebc91125214767ab5b609778d3b0c') in 0.032817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.444552 seconds.
+  path: Assets/Models/Sahara/fbx/wallSingle_window.fbx
+  artifactKey: Guid(b902ad9b18303f742affe644a87903eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/wallSingle_window.fbx using Guid(b902ad9b18303f742affe644a87903eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fa6895a750b750c30febe0ab7d0fd8') in 0.036651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.170833 seconds.
+  path: Assets/Models/Sahara/fbx/wallSingle_windowGate.fbx
+  artifactKey: Guid(8d92a764bc4a586488ebbb21963114a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/wallSingle_windowGate.fbx using Guid(8d92a764bc4a586488ebbb21963114a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0054131578c15497f205a7f3e87c2b94') in 0.041887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.389761 seconds.
+  path: Assets/Models/Sahara/fbx/wallSplit.fbx
+  artifactKey: Guid(adb70783f248cea44b09bd81140087f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/wallSplit.fbx using Guid(adb70783f248cea44b09bd81140087f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c3d9795dccd62657020ef7123f37d8') in 0.037062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.512800 seconds.
+  path: Assets/Models/Sahara/fbx/weaponRack.fbx
+  artifactKey: Guid(917ec9a0d2410284e81c6ccba50e1bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/weaponRack.fbx using Guid(917ec9a0d2410284e81c6ccba50e1bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d4770b187fba7de5c7c235e3118f3f') in 0.020544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.011443 seconds.
+  path: Assets/Models/Sahara/fbx/tileSpikes_large.fbx
+  artifactKey: Guid(1dde404052890364d8827238dd096b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/tileSpikes_large.fbx using Guid(1dde404052890364d8827238dd096b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010f95009d851166f5e25d22c5aa9490') in 0.042205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451296 seconds.
+  path: Assets/Models/Sahara/fbx/tileSpikes.fbx
+  artifactKey: Guid(0253fef940e42374d918380bbb785b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fbx/tileSpikes.fbx using Guid(0253fef940e42374d918380bbb785b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d8078aaf9d6d24a56c193516f3f878') in 0.035484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.190823 seconds.
+  path: Assets/Models/Sahara/floorDecoration_wood.fbx
+  artifactKey: Guid(60cafc6a1a3d70347bf19356d9acdb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/floorDecoration_wood.fbx using Guid(60cafc6a1a3d70347bf19356d9acdb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105def0f6200c768c78a9409e554a777') in 0.017814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.833792 seconds.
+  path: Assets/Models/Sahara/floorDecoration_tilesSmall.fbx
+  artifactKey: Guid(dcfdc3330b390db49b9e5fcef6599327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/floorDecoration_tilesSmall.fbx using Guid(dcfdc3330b390db49b9e5fcef6599327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9d146c4ac620f430654c28f24b5132') in 0.021656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.589573 seconds.
+  path: Assets/Models/Sahara/floorDecoration_woodLeft.fbx
+  artifactKey: Guid(6b22beaa31113fd419f54ec869f10191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/floorDecoration_woodLeft.fbx using Guid(6b22beaa31113fd419f54ec869f10191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0277959e80b0bd3bf7923f9a55af91d3') in 0.021010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.538458 seconds.
+  path: Assets/Models/Sahara/floorDecoration_woodRight.fbx
+  artifactKey: Guid(dd99d207e178fad45b0fa777492dfc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/floorDecoration_woodRight.fbx using Guid(dd99d207e178fad45b0fa777492dfc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66675d121d4874dbf851847ac710c9dc') in 0.017017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.984377 seconds.
+  path: Assets/Models/Sahara/floorDecoration_tilesLarge.fbx
+  artifactKey: Guid(6ca63af7bc3d5be4a8b2d1d3c88b24b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/floorDecoration_tilesLarge.fbx using Guid(6ca63af7bc3d5be4a8b2d1d3c88b24b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee457cf06c75a0eaad79a63a5305bca') in 0.020314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.590779 seconds.
+  path: Assets/Models/Sahara/floorDecoration_shatteredBricks.fbx
+  artifactKey: Guid(431c8e72a59293d4aadcb38efdc64dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/floorDecoration_shatteredBricks.fbx using Guid(431c8e72a59293d4aadcb38efdc64dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d33cfd1031146eeb4f41c6d9277dac') in 0.017088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.326535 seconds.
+  path: Assets/Models/Sahara/tileBrickB_medium.fbx
+  artifactKey: Guid(3cf768954dffba64683df5a05c28b576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/tileBrickB_medium.fbx using Guid(3cf768954dffba64683df5a05c28b576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9be6a9cc1e8ff458bf1a25af248fad') in 0.022507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.943372 seconds.
+  path: Assets/Models/Sahara/tileBrickB_largeCrackedB.fbx
+  artifactKey: Guid(53525bb8a3e91104eaff8e4af46c928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/tileBrickB_largeCrackedB.fbx using Guid(53525bb8a3e91104eaff8e4af46c928c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42479fdb4540bc28c55e50ac7c6739f6') in 0.041697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419700 seconds.
+  path: Assets/Models/Sahara/tileBrickB_largeCrackedA.fbx
+  artifactKey: Guid(884ab9a183b080540af8887aaab0821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/tileBrickB_largeCrackedA.fbx using Guid(884ab9a183b080540af8887aaab0821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106c5a5e240a8d3f0a2282d5050a5d4a') in 0.022346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.388355 seconds.
+  path: Assets/Models/Sahara/tileBrickB_large.fbx
+  artifactKey: Guid(08639c33c7b2d5f4bb2d7afd48cb15cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/tileBrickB_large.fbx using Guid(08639c33c7b2d5f4bb2d7afd48cb15cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb07f1951795a9c1b4a5deeb3af2a676') in 0.026871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.819686 seconds.
+  path: Assets/Models/Sahara/tileBrickA_small.fbx
+  artifactKey: Guid(ea4ea3c8a72b6a4448bd76b096396eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/tileBrickA_small.fbx using Guid(ea4ea3c8a72b6a4448bd76b096396eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e1fb63fa3301bf5b5e89387e8f8547') in 0.034782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.660048 seconds.
+  path: Assets/Models/Sahara/tileBrickA_medium.fbx
+  artifactKey: Guid(a02ecdc723c58e547aaad6ce0cb62cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/tileBrickA_medium.fbx using Guid(a02ecdc723c58e547aaad6ce0cb62cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c9be76d4f6f2e2bd7f22ec00857d57') in 0.036265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.892266 seconds.
+  path: Assets/Models/Sahara/tileBrickA_large.fbx
+  artifactKey: Guid(1bc129e0bd9bfb146be6ed31d5eb80d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/tileBrickA_large.fbx using Guid(1bc129e0bd9bfb146be6ed31d5eb80d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc2094dbe12f7c995305f9a66e1eb75') in 0.037844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 296.131253 seconds.
+  path: Assets/Models/Sahara/alien_plant.fbx
+  artifactKey: Guid(1237f39403a05cc4090aca96af5ce226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/alien_plant.fbx using Guid(1237f39403a05cc4090aca96af5ce226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ffaba3e409e344f4b259db86edafb6') in 0.032752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.602518 seconds.
+  path: Assets/Models/Sahara/ashtray.fbx
+  artifactKey: Guid(d0eb4a2a29705cf42b764ba8fc467e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/ashtray.fbx using Guid(d0eb4a2a29705cf42b764ba8fc467e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4ead436de6e39ed004c7ce9578a884') in 0.020440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.156393 seconds.
+  path: Assets/Models/Sahara/alien_pear.fbx
+  artifactKey: Guid(357b10844ec2cc7419c1324ea5e61c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/alien_pear.fbx using Guid(357b10844ec2cc7419c1324ea5e61c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1266d1ed8ab70e89d21280be7b58fcf0') in 0.041884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.190656 seconds.
+  path: Assets/Models/Sahara/alien-corn.fbx
+  artifactKey: Guid(50f50adf245bb924f878c39942f61cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/alien-corn.fbx using Guid(50f50adf245bb924f878c39942f61cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37d6d665cf899b1fde54187c50d5b1e') in 0.045300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.822701 seconds.
+  path: Assets/Models/Sahara/wall_type04.fbx
+  artifactKey: Guid(ef0b4aedda84491499dee7825b45152f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/wall_type04.fbx using Guid(ef0b4aedda84491499dee7825b45152f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23c46dbc56d484cd03c2615b2c46ea2') in 0.019855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.519429 seconds.
+  path: Assets/Models/Sahara/wall_type03.fbx
+  artifactKey: Guid(f427fe9210dae4549a2e56c4750178e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/wall_type03.fbx using Guid(f427fe9210dae4549a2e56c4750178e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1114b4f48564c85c9bd065e7777da740') in 0.025449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415820 seconds.
+  path: Assets/Models/Sahara/wall_type02.fbx
+  artifactKey: Guid(9ad0c0e67215fff419003728869a570a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/wall_type02.fbx using Guid(9ad0c0e67215fff419003728869a570a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b25da6275135f782c7cf3d75c0fbca') in 0.030813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.308994 seconds.
+  path: Assets/Models/Sahara/wall_tyoe_01.fbx
+  artifactKey: Guid(c8e6afd321f525d4da22168e056c5ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/wall_tyoe_01.fbx using Guid(c8e6afd321f525d4da22168e056c5ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9357f89feb4d184e2f810006b046735') in 0.022337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.382362 seconds.
+  path: Assets/Models/Sahara/wall_top_type_furby.fbx
+  artifactKey: Guid(414b7f3e98a99c842a32a2b87afd87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/wall_top_type_furby.fbx using Guid(414b7f3e98a99c842a32a2b87afd87c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31458932ba7d98c3d86c78a6ec23ff7') in 0.034001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.367906 seconds.
+  path: Assets/Models/Sahara/wall_top_type_cyclops.fbx
+  artifactKey: Guid(76f37ae364556ba4da1bbfe20304a8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/wall_top_type_cyclops.fbx using Guid(76f37ae364556ba4da1bbfe20304a8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7e4f07549451b85197e1dadca9b671') in 0.027522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.331900 seconds.
+  path: Assets/Models/Sahara/vase.fbx
+  artifactKey: Guid(b414035b6599894488089538dfca64e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/vase.fbx using Guid(b414035b6599894488089538dfca64e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79d3e22014aa065d2a767a3ac388376') in 0.032537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.402551 seconds.
+  path: Assets/Models/Sahara/suculent.fbx
+  artifactKey: Guid(750e41fe8f811834da3da173b259f33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/suculent.fbx using Guid(750e41fe8f811834da3da173b259f33b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caa8c9eb64bc8f3656edeb3ff578e9f') in 0.031502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.342513 seconds.
+  path: Assets/Models/Sahara/stone_deamon.fbx
+  artifactKey: Guid(08f9a82aa354b83498b9bc70c53c31fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/stone_deamon.fbx using Guid(08f9a82aa354b83498b9bc70c53c31fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3efd76c85f760d6f9b483ca7c23899') in 0.039083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.061159 seconds.
+  path: Assets/Models/Sahara/smoke.fbx
+  artifactKey: Guid(45c3a296942d7414d8f795ea5e414232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/smoke.fbx using Guid(45c3a296942d7414d8f795ea5e414232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18211cbb534e7d153f9f288a09bf690') in 0.022194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.456607 seconds.
+  path: Assets/Models/Sahara/smal_buble_cactus.fbx
+  artifactKey: Guid(74c7e0a594b76764a84bd277970d21e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/smal_buble_cactus.fbx using Guid(74c7e0a594b76764a84bd277970d21e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b8608c09f6aeadfe7affae1971e283') in 0.038205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.418477 seconds.
+  path: Assets/Models/Sahara/skull-vase.fbx
+  artifactKey: Guid(5c300566208122f4d876b8fd71a13413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/skull-vase.fbx using Guid(5c300566208122f4d876b8fd71a13413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6adf23b8921268827f708012117a23a') in 0.044790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.405791 seconds.
+  path: Assets/Models/Sahara/skeleton.fbx
+  artifactKey: Guid(0664d5cb5982cd045bf45cf0169bd7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/skeleton.fbx using Guid(0664d5cb5982cd045bf45cf0169bd7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7e7f8006aee02eb52f9545c9337d77') in 0.037355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.369401 seconds.
+  path: Assets/Models/Sahara/seahorse.fbx
+  artifactKey: Guid(57e54e9e603014747bbb6461d720ccde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/seahorse.fbx using Guid(57e54e9e603014747bbb6461d720ccde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d2a720f4b0e1ca2f92597ef824aac7') in 0.041561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.525321 seconds.
+  path: Assets/Models/Sahara/plush_monkey.fbx
+  artifactKey: Guid(d896b8ba144621e4e900d2c41c1e6e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/plush_monkey.fbx using Guid(d896b8ba144621e4e900d2c41c1e6e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2e6b0db4e6602225035f99acaaf3b5') in 0.042770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.415489 seconds.
+  path: Assets/Models/Sahara/plane.fbx
+  artifactKey: Guid(d1666a0adb646f34792228a1075c4ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/plane.fbx using Guid(d1666a0adb646f34792228a1075c4ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e72ceeef7c766c0153ec2681cb6b178') in 0.057594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.404143 seconds.
+  path: Assets/Models/Sahara/piano_chair.fbx
+  artifactKey: Guid(560245184e11a454cbb649d3c3ecf70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/piano_chair.fbx using Guid(560245184e11a454cbb649d3c3ecf70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9561db0f65461b8caaa312161a36f1') in 0.037502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.100015 seconds.
+  path: Assets/Models/Sahara/piano.fbx
+  artifactKey: Guid(a0120878e9e013b469c063f0de1b1cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/piano.fbx using Guid(a0120878e9e013b469c063f0de1b1cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4610f75dd8069559b831970d4f38d8') in 0.034446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.965178 seconds.
+  path: Assets/Models/Sahara/peyote.fbx
+  artifactKey: Guid(82c5ff1fedb643544a72f3757a709afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/peyote.fbx using Guid(82c5ff1fedb643544a72f3757a709afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d7207f0b04fa1e5a30c6ca84fa934c') in 0.043435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.323983 seconds.
+  path: Assets/Models/Sahara/one-spike_cactus.fbx
+  artifactKey: Guid(ed5269e3f2ffa0f40b893a8f84e94cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/one-spike_cactus.fbx using Guid(ed5269e3f2ffa0f40b893a8f84e94cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47b0df3d4b39e4e695b6283477d6a1a') in 0.030229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.033385 seconds.
+  path: Assets/Models/Sahara/monkey_statue.fbx
+  artifactKey: Guid(651812f608f72ef489bca7d7f07cc47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/monkey_statue.fbx using Guid(651812f608f72ef489bca7d7f07cc47c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18aec1c2724d2b00b2417ea7ec4dfe5') in 0.032965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.238504 seconds.
+  path: Assets/Models/Sahara/long_cactus_flower.fbx
+  artifactKey: Guid(8460278c27af4194ab31875c97a00cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/long_cactus_flower.fbx using Guid(8460278c27af4194ab31875c97a00cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2085c81ed3aacd85c5b7ef8c8e115041') in 0.030382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.542126 seconds.
+  path: Assets/Models/Sahara/long_cactus.fbx
+  artifactKey: Guid(c03086d8211668940b415479afd0ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/long_cactus.fbx using Guid(c03086d8211668940b415479afd0ea39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298c9dc6625308c0818ba446bb98d17b') in 0.022875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.312717 seconds.
+  path: Assets/Models/Sahara/lock.fbx
+  artifactKey: Guid(f4bafce738e29ad4f89f434fb663f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/lock.fbx using Guid(f4bafce738e29ad4f89f434fb663f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b27c485ed5317068815dfab55fae32f') in 0.027015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491237 seconds.
+  path: Assets/Models/Sahara/leaf_plant.fbx
+  artifactKey: Guid(927d60fa942aaff47823b92790cec297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/leaf_plant.fbx using Guid(927d60fa942aaff47823b92790cec297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b140d5f5e8018cb6032b222337d56794') in 0.022933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.312826 seconds.
+  path: Assets/Models/Sahara/hen.fbx
+  artifactKey: Guid(240983794168a934386de85f8dcc70eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/hen.fbx using Guid(240983794168a934386de85f8dcc70eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5902d01a3df29f5ac6170ffb275f7d') in 0.029672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.358243 seconds.
+  path: Assets/Models/Sahara/helicopter.fbx
+  artifactKey: Guid(a769dda96844f6048bf745e991aa23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/helicopter.fbx using Guid(a769dda96844f6048bf745e991aa23e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca22e21ef8d9fede4245a7fbf993e86') in 0.038222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.362563 seconds.
+  path: Assets/Models/Sahara/frog.fbx
+  artifactKey: Guid(d553cd5f86c29284ba9d4a164722c515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/frog.fbx using Guid(d553cd5f86c29284ba9d4a164722c515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3ee8ead52f2cb5c38458b6cfaf69e3') in 0.047480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.446615 seconds.
+  path: Assets/Models/Sahara/flamingo.fbx
+  artifactKey: Guid(fa0a7146c43c53644824e3826b2f19b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/flamingo.fbx using Guid(fa0a7146c43c53644824e3826b2f19b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efe3098ecae09a929c80a839e7ae88d') in 0.030704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.528706 seconds.
+  path: Assets/Models/Sahara/fish-bone.fbx
+  artifactKey: Guid(bd608fa6809d01a4f88e430bcf200969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fish-bone.fbx using Guid(bd608fa6809d01a4f88e430bcf200969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63265b5c5b067752b24a9859807ca6d') in 0.030041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.485930 seconds.
+  path: Assets/Models/Sahara/fat_cactus.fbx
+  artifactKey: Guid(a488eeaa2eed017428cd33f21eb05e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/fat_cactus.fbx using Guid(a488eeaa2eed017428cd33f21eb05e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0a579bf4012692120167bc3fc8662a') in 0.037957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.275827 seconds.
+  path: Assets/Models/Sahara/earth_cube.fbx
+  artifactKey: Guid(efe0893139f72dd4c81c54eefe89ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/earth_cube.fbx using Guid(efe0893139f72dd4c81c54eefe89ac69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45e3571af86e66c77801f577925eee3') in 0.026997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.242979 seconds.
+  path: Assets/Models/Sahara/david_star_cactus.fbx
+  artifactKey: Guid(50b6f9401da5a724c99c6e92f3ce2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/david_star_cactus.fbx using Guid(50b6f9401da5a724c99c6e92f3ce2b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b53ebb54be038b00da66efa9e405ad3') in 0.020501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.371295 seconds.
+  path: Assets/Models/Sahara/crocodile.fbx
+  artifactKey: Guid(b78e2d35adea8ba458b7388a1130becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/crocodile.fbx using Guid(b78e2d35adea8ba458b7388a1130becc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe36a47cb77bb89d0db3ab08445fbb4') in 0.048836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.293610 seconds.
+  path: Assets/Models/Sahara/cigar.fbx
+  artifactKey: Guid(21cb8e0084ea7d84880f53dc82d40804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/cigar.fbx using Guid(21cb8e0084ea7d84880f53dc82d40804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab111672bded6f04a7d7c70dccde909') in 0.045446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.266733 seconds.
+  path: Assets/Models/Sahara/chameleon.fbx
+  artifactKey: Guid(1cb4242067884004f8308980cae3ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/chameleon.fbx using Guid(1cb4242067884004f8308980cae3ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6524e10350a93805b8cadfdfb1ef4569') in 0.044903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304879 seconds.
+  path: Assets/Models/Sahara/cactus_and_fruits.fbx
+  artifactKey: Guid(a9b70bca0d6f416439dc00521791a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sahara/cactus_and_fruits.fbx using Guid(a9b70bca0d6f416439dc00521791a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521d9a353286861ae697b26669d2e69c') in 0.057600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.487669 seconds.
+  path: Assets/Materials/Level/Box 1.mat
+  artifactKey: Guid(6933f3a3bc4a20847ab7fc5c37038509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level/Box 1.mat using Guid(6933f3a3bc4a20847ab7fc5c37038509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631f210cd6d302844cbfa8b0744349ba') in 0.061570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Level/Skybox Cubemap Extended Day.mat
+  artifactKey: Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Level/Skybox Cubemap Extended Day.mat using Guid(2bd8959f5fbd3644aa33af1a155fc147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d87f8c590d3c333a3eda11cda17326') in 0.284027 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
